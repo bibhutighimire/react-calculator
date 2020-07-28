@@ -7,6 +7,11 @@
   pointer-events: none;
 }
 
+#root {
+  margin: auto;
+  width: 70%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -22,6 +27,56 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+h1 {
+color: rgb(87, 49, 0);
+text-align: center;
+text-decoration: underline;
+}
+
+form {
+  font-size: x-large;
+  border: 2px dotted black;
+  justify-content: center;
+  background-color: beige;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+button {
+  background-color: rgb(87, 49, 0);
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  justify-content: center;
+  font-size: large;
+}
+
+input {
+  height: 35px;
+  width: 200px;
+
+}
+
+select {
+  height: 50px;
+  width: 188px;
+
+}
+
+form div {
+  margin: 15px 0px;
+
+}
+
+form div label{
+  margin-right: 20px ;
+
+}
+
+form div p {
+  color: red;
 }
 
 .App-link {
